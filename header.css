@@ -1,0 +1,45 @@
+header
+    nav ul li {
+        float: left;
+        margin-left:10px;
+        list-style-type: none;
+    }
+
+
+    nav #second ul li{
+        float: right;
+        margin-right: 10px;
+        list-style-type: none;
+    }
+main
+    .container {
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+    }
+    #logo{
+        height: 92px;
+        width: 272px;
+    }
+    #search{
+        display: block;
+        width: 20%;
+        margin: 0 auto;
+    }
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+    div ul li {
+        float: left;
+        margin-left: 10px;
+        list-style-type: none;
+    }
+    div #third ul li {
+        float: right;
+        margin-right: 10px;
+        list-style-type: none;    
+    }
+ 
