@@ -1,0 +1,27 @@
+#container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-width: fit-content;
+    padding-top: 8px;
+    position: relative;
+    z-index: 1;
+} 
+#header{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* #item{
+        display: flex;
+        flex-direction: row ;
+    } */
+    
+/* #verse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+ */ 
