@@ -1,4 +1,4 @@
-#container{
+.container{
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -8,20 +8,37 @@
     position: relative;
     z-index: 1;
 } 
-#header{
+.header{
     box-sizing: border-box;
     position: relative;
+    padding: 8px;
+    height: 48px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-/* #item{
+.item{
+        position: relative;
         display: flex;
         flex-direction: row ;
-    } */
+    }
     
-/* #verse{
+.verse{
         display: flex;
         flex-direction: row-reverse;
     }
- */ 
+.logo{
+    forced-color-adjust: none;
+    height: 92px;
+    width: 272px;
+    display: flex;
+    flex-direction: column;
+}
+.third{
+    color: #70757a;
+    flex-wrap: wrap;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
