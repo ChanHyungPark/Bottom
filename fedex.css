@@ -1,8 +1,16 @@
+body{
+    height: 100%;
+    width:100%;
+    margin: 0px;
+    background-color: blue;
+}
 .container{
     /* align-items: center; */
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     height: 100%;
+    width: 100%;
     min-width: fit-content;
     padding-top: 8px;
     position: relative;
@@ -13,7 +21,7 @@
     position: relative;
     padding: 6px;
     height: 48px;
-    width: 698px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     color: #202124;
@@ -86,7 +94,23 @@
     flex-wrap: wrap;
     padding: 15px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: aquamarine;
+}
+.bot1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.bot2{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.adver, .business, .search, .personal, .vicious, .setting{
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #202124;
 }
  
