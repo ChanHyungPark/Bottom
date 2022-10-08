@@ -2,7 +2,7 @@ body{
     height: 100%;
     width:100%;
     margin: 0px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 .container{
     /* align-items: center; */
@@ -27,7 +27,7 @@ body{
     color: #202124;
     font-size: 14px;
     font-family: sans-serif,Arial, sans-serif;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 .info{
     display: inline-block;
@@ -73,13 +73,18 @@ body{
     margin: 0 5px;
     color: #202124;
 }
-.mid{
+.mid {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 300px;
     position: relative;
     background-color: #70757a;
+}
+.fasfa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .logo{
     min-height: 92px;
