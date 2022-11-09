@@ -82,11 +82,6 @@ body{
     padding: 100px;
     background-color: #70757a;
 }
-.fasfa{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 input{
     width: 90%;
     border-color: #bbb;
@@ -94,6 +89,16 @@ input{
     border-width: 1px;
     padding: 6px 0 6px 0;
     margin: 6px;
+}
+.fasfa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 44px;
+    /* background-color: #fff; */
+    margin: 0 auto;
+    max-width: 584px;
 }
 .logo{
     min-height: 92px;
