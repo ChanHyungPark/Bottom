@@ -100,11 +100,15 @@ input{
     margin: 0 auto;
     max-width: 584px;
 }
-googlesearch{
-
+.butt{
+    height: 70px;;
 }
-imfeeling{
-    
+.googlebutton{
+    height: 36px;
+    margin: 4px;;
+    font-size: 14px;
+    font-family: sans-serif,Arial, sans-serif;
+    color: #3c4043;
 }
 .logo{
     min-height: 92px;
